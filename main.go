@@ -11,7 +11,9 @@ func main() {
 		Title: "TITLE",
 		PrintData: &assets.Article_PrintData{
 			Page: 0,
+			IsPublished: true,
 			Section: "NEWS",
+			Column: "Review",
 		},
 		Kicker: "BOOM",
 	}
